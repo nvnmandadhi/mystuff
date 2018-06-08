@@ -1,1 +1,17 @@
+#added by Anaconda2 installer
+export PATH="/Users/Naveen/anaconda2/bin:$PATH"
+
+export ANT_HOME=/Users/Naveen/apache-ant-1.10.3
+export PATH="$ANT_HOME/bin:$PATH"
+
+# Init jenv
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
+
+export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+
+export PS1="\[$(tput bold)\]\[\033[38;5;31m\]\u\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;94m\]@\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;29m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;28m\]:\[$(tput sgr0)\]\[\033[38;5;172m\][\[$(tput sgr0)\]\[\033[38;5;167m\]\w\[$(tput sgr0)\]\[\033[38;5;172m\]]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]\[\033[38;5;28m\]\\$\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+
 
